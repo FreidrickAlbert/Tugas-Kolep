@@ -1,0 +1,145 @@
+/* Resetting some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar ul li a:hover {
+    color: #4CAF50;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 60px 0;
+  }
+  
+  .home {
+    background: #f4f4f4;
+  }
+  
+  .portfolio, .achievements, .contact {
+    background: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .info p {
+    max-width: 600px;
+    text-align: justify;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .project {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact form label {
+    margin: 10px 0;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .projects {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
